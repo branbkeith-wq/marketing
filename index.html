@@ -1,1 +1,345 @@
-file:///Users/brandonkeith/dream%20job/marketing-reference.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brandon Keith — Marketing Work</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: #f7f7f6;
+    color: #24242a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+  a { color: inherit; }
+
+  .wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 56px 6vw 80px;
+  }
+
+  header {
+    margin-bottom: 40px;
+  }
+  header h1 {
+    font-size: 1.6rem;
+    margin: 0 0 6px;
+    font-weight: 700;
+  }
+  header p {
+    margin: 0;
+    color: #55555c;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  header .contact {
+    margin-top: 14px;
+    font-size: 0.85rem;
+    color: #45454c;
+  }
+  header .contact a {
+    text-decoration: none;
+    border-bottom: 1px dotted #aaa;
+  }
+
+  .entry {
+    padding: 30px 0;
+    border-bottom: 1px solid #e2e2dc;
+  }
+  .entry:last-child { border-bottom: none; }
+  .entry .company {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .entry .role {
+    font-size: 0.9rem;
+    color: #6a6a70;
+    margin-top: 2px;
+    margin-bottom: 14px;
+  }
+  .entry ul {
+    margin: 0 0 4px;
+    padding-left: 20px;
+  }
+  .entry li {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin-bottom: 6px;
+    color: #333338;
+  }
+  .entry li:last-child { margin-bottom: 0; }
+
+  /* Case study blocks — deeper narrative under specific bullets */
+  .case-study {
+    margin-top: 18px;
+    padding: 18px 20px;
+    background: #ffffff;
+    border: 1px solid #e6e6e0;
+    border-radius: 6px;
+  }
+  .case-study + .case-study { margin-top: 14px; }
+  .cs-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #8a8a92;
+    margin-bottom: 10px;
+  }
+  .cs-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: baseline;
+  }
+  .cs-row:last-child { margin-bottom: 0; }
+  .cs-label {
+    flex: 0 0 82px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #9a9aa2;
+    padding-top: 2px;
+  }
+  .cs-text {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: #333338;
+  }
+
+  /* Dashboard mockup */
+  .mockup {
+    margin-top: 14px;
+    border: 1px solid #e0e0da;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fbfbf9;
+  }
+  .mockup-bar {
+    background: #24242a;
+    color: #f2f2ee;
+    font-size: 0.78rem;
+    padding: 9px 14px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.02em;
+  }
+  .mockup-bar span.dim { color: #9a9aa2; }
+  table.mockup-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+  table.mockup-table th {
+    text-align: left;
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8a8a92;
+    padding: 10px 14px 8px;
+    border-bottom: 1px solid #e6e6e0;
+    font-weight: 600;
+  }
+  table.mockup-table td {
+    padding: 9px 14px;
+    border-bottom: 1px solid #eeeee8;
+    color: #33333a;
+  }
+  table.mockup-table tr:last-child td { border-bottom: none; }
+  .pill {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 20px;
+    letter-spacing: 0.02em;
+  }
+  .pill-hot { background: #fce4dc; color: #b8451f; }
+  .pill-cold { background: #dce7f7; color: #2a5aa8; }
+  .pill-ontrack { background: #dcf0e0; color: #227a3e; }
+  .streak {
+    font-size: 0.72rem;
+    color: #a3a3ab;
+  }
+  .streak.flag { color: #b8451f; font-weight: 600; }
+  .mockup-caption {
+    padding: 9px 14px 12px;
+    font-size: 0.75rem;
+    color: #9a9aa2;
+    border-top: 1px solid #eeeee8;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #9a9aa0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Brandon Keith</h1>
+    <p>Performance marketing — paid search, cross-channel acquisition, and reporting/automation infrastructure. Selected work, most recent first.</p>
+    <div class="contact">
+      678-308-2221 &nbsp;·&nbsp; <a href="mailto:brandonbkeith@gmail.com">brandonbkeith@gmail.com</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/bbkeith">linkedin.com/in/bbkeith</a>
+    </div>
+  </header>
+
+  <div class="entry">
+    <div class="company">Square</div>
+    <div class="role">Performance Marketing Manager — June 2025 – Present</div>
+    <ul>
+      <li>Own paid search strategy and execution across Google Ads and Microsoft Ads for B2B SaaS products, directing up to $5M/month in spend.</li>
+      <li>Built the performance reporting framework (Looker) now used by Analytics, Data Science, and Product to prioritize experimentation.</li>
+    </ul>
+
+    <div class="case-study">
+      <div class="cs-tag">Case Study — Cutting CAC 15%</div>
+      <div class="cs-row">
+        <div class="cs-label">Situation</div>
+        <div class="cs-text">Account structure had accumulated years of drift — broad match terms competing against themselves, bid strategy set up for an earlier stage of the account, and no regular pass to clear out non-converting search terms. CAC was trending up without a clear single cause.</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Approach</div>
+        <div class="cs-text">Rebuilt the account in three moves: restructured match types so campaigns stopped cannibalizing each other's traffic, switched the bid strategy type to one better matched to current volume and conversion data, and ran a full negative keyword pass to cut spend on terms that looked relevant but never converted.</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Result</div>
+        <div class="cs-text">CAC down 15%, with conversion rate held flat or improved — the savings came from efficiency, not from pulling back on volume.</div>
+      </div>
+    </div>
+
+    <div class="case-study">
+      <div class="cs-tag">Case Study — SEM Pacing Toolkit</div>
+      <div class="cs-row">
+        <div class="cs-label">Situation</div>
+        <div class="cs-text">Daily budget pacing spans Search, PMax, Shopping, and Video across both US and international markets. Checking it meant pulling numbers by hand, channel by channel, market by market, every morning — slow, and it meant pacing problems were often caught a day or more after they started.</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Approach</div>
+        <div class="cs-text">Built an automation that refreshes the day's pacing on its own each morning, then: populates individual dashboards per channel with performance detail, flags any campaign trending hot or cold against QTD spend targets and conversion goals, tracks whether that trend has held for multiple consecutive days (so a one-day blip doesn't trigger a false alarm, but a real drift gets caught fast), keeps a change-log calendar of what changed and what it might affect, and sends a Slack briefing each morning with the day's follow-up priorities.</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Result</div>
+        <div class="cs-text">6–10 hours a week that used to go to manual pacing checks, now available for actual optimization work — and pacing issues get caught in a morning instead of days later.</div>
+      </div>
+
+      <div class="mockup">
+        <div class="mockup-bar">
+          <span>Pacing Dashboard — Tue, Sep 15</span>
+          <span class="dim">Auto-refreshed 6:00 AM</span>
+        </div>
+        <table class="mockup-table">
+          <tr>
+            <th>Campaign</th>
+            <th>Market</th>
+            <th>QTD Spend Pace</th>
+            <th>Status</th>
+            <th>Streak</th>
+          </tr>
+          <tr>
+            <td>Search — Brand</td>
+            <td>US</td>
+            <td>+18% vs. target</td>
+            <td><span class="pill pill-hot">Hot</span></td>
+            <td class="streak flag">3 consecutive days</td>
+          </tr>
+          <tr>
+            <td>PMax — Core</td>
+            <td>US</td>
+            <td>−2% vs. target</td>
+            <td><span class="pill pill-ontrack">On Track</span></td>
+            <td class="streak">—</td>
+          </tr>
+          <tr>
+            <td>Shopping — Catalog</td>
+            <td>Intl</td>
+            <td>−22% vs. target</td>
+            <td><span class="pill pill-cold">Cold</span></td>
+            <td class="streak flag">4 consecutive days</td>
+          </tr>
+          <tr>
+            <td>Video — Prospecting</td>
+            <td>US</td>
+            <td>+6% vs. target</td>
+            <td><span class="pill pill-ontrack">On Track</span></td>
+            <td class="streak">1 day</td>
+          </tr>
+          <tr>
+            <td>Search — Non-Brand</td>
+            <td>Intl</td>
+            <td>+14% vs. target</td>
+            <td><span class="pill pill-hot">Hot</span></td>
+            <td class="streak">1 day</td>
+          </tr>
+        </table>
+        <div class="mockup-caption">Illustrative mockup of the dashboard layout — not live account data. Multi-day streak flags are what separate a real trend from a one-day blip.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="company">Growth Marketing Consultant — Independent Contractor</div>
+    <div class="role">Nov 2024 – June 2025</div>
+    <ul>
+      <li>Managed paid search campaigns (Google Ads, Microsoft Ads) for consulting clients, with budget pacing responsibility up to $500K/month.</li>
+      <li>Increased conversion rates 20% within the first quarter through landing page optimization and campaign restructuring.</li>
+      <li>Rebuilt keyword and bid strategy, driving a 22% increase in conversion rate and improving overall campaign performance.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="company">SCS Media</div>
+    <div class="role">Sr. Paid Search Manager — Sept 2023 – Nov 2024</div>
+    <ul>
+      <li>Owned daily paid search execution across Google Ads and Microsoft Ads for client accounts exceeding $5M/month in combined spend, managing budget pacing against target CAC and ROAS.</li>
+      <li>Managed and supervised a team of junior paid media specialists, overseeing campaign execution, QA, and day-to-day performance across managed accounts.</li>
+    </ul>
+
+    <div class="case-study">
+      <div class="cs-tag">Case Study — 30% ROI Increase via PMax &amp; Display</div>
+      <div class="cs-row">
+        <div class="cs-label">Situation</div>
+        <div class="cs-text">Managed accounts leaned heavily on PMax and display, where performance lives or dies at the asset level — but asset and creative performance wasn't being reviewed or acted on consistently.</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Approach</div>
+        <div class="cs-text">Put in place ongoing account hygiene and active management: regularly identifying the highest-performing assets and creative within each account and shifting focus and budget toward them, rather than letting spend spread evenly across everything by default.</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Result</div>
+        <div class="cs-text">30% increase in ROI across managed accounts. GA4 reporting built on top of this directly shaped client strategy and contributed to 25% YoY revenue growth in key verticals.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="company">DYODE</div>
+    <div class="role">Paid Search Manager — June 2022 – Sept 2023</div>
+    <ul>
+      <li>Built and scaled a paid search program from the ground up to $5M/month in managed spend, improving campaign effectiveness by 40%.</li>
+      <li>Owned budget pacing and optimization end-to-end, driving 20% revenue growth through targeted keyword and bid strategy.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="company">Freelance & Agency Marketing Roles</div>
+    <div class="role">Mar 2018 – June 2022 — including Disruptive and KMG Digital Marketing</div>
+    <ul>
+      <li>Built an independent marketing practice managing full-stack digital channels (paid search, paid social, SEO, web, analytics) for clients across health & fitness, VR gaming, and apparel, narrowing focus to paid search and paid social by 2020.</li>
+      <li>Drove 15%+ month-over-month conversion growth for a health & beauty eCommerce client and a 102% increase in monthly site traffic through GA/GTM-driven optimization.</li>
+      <li>Ran paid social for agency clients at Disruptive; freelanced through KMG Digital Marketing managing eCommerce paid search programs that grew sales 20%+ on $100K+ in managed spend.</li>
+    </ul>
+  </div>
+
+  <footer>Last updated September 2026.</footer>
+
+</div>
+</body>
+</html>
